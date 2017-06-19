@@ -12,7 +12,6 @@ yarn-error.log*# See https://help.github.com/ignore-files/ for more about ignori
 /coverage
 
 # production
-/build
 
 # misc
 .DS_Store
