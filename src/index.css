@@ -1,5 +1,8 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+h1 {
+	padding:  10px 5px;
+	width: 250px;
+	border-left: 8px solid #58a;
+	font-weight: normal;
+	background-color: #52a;
+	color: #ddd;
 }
