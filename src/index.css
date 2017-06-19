@@ -1,8 +1,16 @@
 h1 {
-	padding:  10px 5px;
+	background: #000;
 	width: 250px;
+	text-align: center;
+	padding: 5px 0;
 	border-left: 8px solid #58a;
-	font-weight: normal;
-	background-color: #52a;
-	color: #ddd;
+	color: #fff;
+	box-shadow: 2px 2px 5px -4px #000,
+				2px 2px 5px -4px #000,
+				2px 2px 5px -4px #000,
+				2px 2px 5px -4px #000,
+				2px 2px 5px -4px #000,
+				2px 2px 5px -4px #000,
+				2px 2px 5px -4px #000,
+				2px 2px 5px -4px #000;
 }
