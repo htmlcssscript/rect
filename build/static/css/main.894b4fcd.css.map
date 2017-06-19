@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,GACC,iBACA,YACA,2BACA,gBACA,sBACA,UAAY","file":"static/css/main.894b4fcd.css","sourcesContent":["h1 {\n\tpadding:  10px 5px;\n\twidth: 250px;\n\tborder-left: 8px solid #58a;\n\tfont-weight: normal;\n\tbackground-color: #52a;\n\tcolor: #ddd;\n}\n\n\n// WEBPACK FOOTER //\n// ./src/index.css"],"sourceRoot":""}
