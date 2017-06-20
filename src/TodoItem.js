@@ -1,4 +1,4 @@
-import react, {component} from 'react'
+import React, {Component} from 'react'
 
 export default class TodoItem extends Component {
     render() {

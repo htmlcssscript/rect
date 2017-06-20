@@ -1,15 +1,15 @@
-import React, {component} from 'react';
-import TodoInput from './TodoInput'
-
+import React, {Component} from 'react';
+import TodoInput from './TodoInput';
+import TodoItem from './TodoItem';
+import 'normalize.css';
 import './App.css';
 
-class App extends component {
+class App extends Component {
     constructor(props) {
-        supter(props)
-
+        super(props)
         this.state = {
-            newTodo = 'test',//用户输入的文字
-            todoList = [
+            newTodo: 'test',//用户输入的文字
+            todoList: [
                 {id: 1, title: '第一个代办'}
             ]
         }
@@ -19,7 +19,7 @@ class App extends component {
         let todos = this.state.todoList.map((item, index) => {
             // return <li> {item.title} </li>
             return (
-                <li>
+                <li key={index}>
                     <TodoItem todo={item} />
                 </li>
             )
@@ -32,9 +32,6 @@ class App extends component {
                     {/*<input type="text" value={this.state.newTodo} />*/}
                     <TodoInput content={this.state.newTodo} />
                 </div>
-                <p className="App-intro">
-                    To get started, edit <code>src/App.js</code> and save to reload
-                </p>
                 <ol>
                     {todos}
                 </ol>
@@ -42,3 +39,5 @@ class App extends component {
         )
     }
 }
+
+export default App

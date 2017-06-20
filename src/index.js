@@ -1,15 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import registerServiceWorker from './registerServiceWorker';
-import './index.css';
-
+import App from './App';
 
 //按需更新
-function tick() {
-  ReactDOM.render(
-    <Welcome name="frank"/>,
-    document.getElementById('root')
-  );
-}
 
-setInterval(tick, 1000);
+  ReactDOM.render(
+    <App/>,
+    document.getElementById('root')
+  )

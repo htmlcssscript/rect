@@ -1,7 +1,7 @@
-import react, {component} from 'react'
+import React, {Component} from 'react'
 
 export default class TodoInput extends Component {
     render() {
-        return <input type="text" value={this.props.content} alt="logo"/>
+        return (<input type="text" value={this.props.content} />)
     }
 }
