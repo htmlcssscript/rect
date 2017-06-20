@@ -11,8 +11,6 @@ yarn-error.log*# See https://help.github.com/ignore-files/ for more about ignori
 # testing
 /coverage
 
-# production
-
 # misc
 .DS_Store
 .env.local
