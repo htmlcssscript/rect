@@ -4,6 +4,7 @@ import TodoItem from './TodoItem';
 import 'normalize.css';
 import './reset.css';
 import './App.css';
+import './index.css';
 
 class App extends Component {
     constructor(props) {
